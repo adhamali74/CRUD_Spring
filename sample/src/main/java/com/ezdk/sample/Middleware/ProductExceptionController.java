@@ -1,4 +1,4 @@
-package com.ezdk.sample.Product;
+package com.ezdk.sample.Middleware;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

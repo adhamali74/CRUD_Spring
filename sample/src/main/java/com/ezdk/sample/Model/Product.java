@@ -1,4 +1,4 @@
-package com.ezdk.sample.Product;
+package com.ezdk.sample.Model;
 
 public class Product {
     private String id;
