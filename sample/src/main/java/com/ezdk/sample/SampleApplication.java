@@ -10,3 +10,4 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 			SpringApplication.run(SampleApplication.class, args);
 		}
 	}
+

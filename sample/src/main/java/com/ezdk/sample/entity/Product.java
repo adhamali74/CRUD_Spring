@@ -10,19 +10,19 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // Use Long for ID
+    private Long id;
 
     @Column(name = "product_name")
-    private String productName; // Correct field name for product name
+    private String productName;
 
     @Column(name = "product_description")
-    private String productDescription; // Field for product description
+    private String productDescription;
 
     @Column(name = "stock_quantity")
-    private Integer stockQuantity; // Field for stock quantity
+    private Integer stockQuantity;
 
     @Column(name = "date_added")
-    private String dateAdded; // Field for the date added
+    private String dateAdded;
 
-    // You can also add more fields if your table has additional columns
+
 }
